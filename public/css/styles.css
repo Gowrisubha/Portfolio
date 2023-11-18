@@ -1,0 +1,114 @@
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+/* Add some basic styles to the navbar */
+.navbar-customized {
+  margin-top: 10px;
+  width: 95%;
+  height: 10%;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  font-size: 12px;
+
+  border-radius: 0%;
+  border-bottom: 3px solid #666666;
+
+}
+
+.container-customized {
+  padding: 0%;
+}
+
+.navbar-header-customized {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.vector-SYR {
+  width: 2.1796rem;
+  height: 1rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+
+.vector-SYR1 {
+  width: 2.1796rem;
+  height: 1.5rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+
+.navbar-right li,
+.navbar-right li a ,
+.viewmore{
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 7.50rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  flex-shrink: 0;
+
+}
+
+h4 {
+  color: rgba(0, 0, 0, 0.32);
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.header1-1 {
+  margin-left: 5%;
+  padding-top: 5%;
+}
+
+
+.fs-developer {
+  color: rgba(0, 0, 0, 0.10);
+  font-size: 13.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.5rem;
+   white-space: nowrap; /* Ensures the text stays on a single line */
+  display: inline-block; /* Allows the element to respect horizontal space */
+}
+.bio-col{
+  padding-top: 10%;
+}
+.p-home-about__name-en{
+font-size: 3.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.p-home-about__name-ja, .p-home-about__text{
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.viewmore{
+  text-decoration: none;
+}
+
