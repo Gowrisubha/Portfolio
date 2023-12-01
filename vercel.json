@@ -1,5 +1,5 @@
 {
-    "version":2,
+   
     "builds":[
         {
           "src":"./app.js",
@@ -8,16 +8,8 @@
 ],
 "routes":[
     {
-        "src":"/",
-        "dest":"/"
-    },
-    {
-        "src":"/about",
-        "dest":"/"
-    },
-    {
-        "src":"/contact",
-        "dest":"/"
+        "src":"/(.*)",
+        "dest":"/app.js"
     }
 
 ]
