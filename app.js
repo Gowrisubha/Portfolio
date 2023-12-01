@@ -19,9 +19,7 @@ app.get("/contact",function(req,res){
     res.render("contact");
 })
 
-app.listen("3000", ()=>{
-    console.log("server running in port 3000")
-})
+
 
 
 
@@ -29,3 +27,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 // to use external css file
 app.use(express.static("public"));
+
+
+app.listen(process.env.PORT || 3000, function () {
+    console.log("Server started on port 3000");
+  })
