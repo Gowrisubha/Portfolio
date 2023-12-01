@@ -437,7 +437,10 @@ a{
   }
   .footer-contact{
     height: 60vh;
-   
+   width: 100vh;
+  }
+  .footer-div{
+    margin-top: 5%;
   }
   #contact-id{
     font-size: 1.5rem;
@@ -455,7 +458,7 @@ a{
     
   }
   .mob-skill-div{
-    margin-top: 30%;
+    margin-top: 80%;
   }
   .about-page-right{
     margin-top: 10%;
