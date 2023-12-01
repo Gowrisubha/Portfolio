@@ -389,7 +389,7 @@ a{
 
 @media screen and (max-width:600px){
   body{
-    width: 85%;
+    width: 90%;
     margin-left: auto;
   margin-right: auto;
   }
@@ -453,6 +453,9 @@ a{
     height: 100vh;
     margin-top: 0;
     
+  }
+  .mob-skill-div{
+    margin-top: 30%;
   }
   .about-page-right{
     margin-top: 10%;
