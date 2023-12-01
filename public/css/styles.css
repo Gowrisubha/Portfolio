@@ -387,7 +387,7 @@ a{
   }
 }
 
-@media (max-width:1000px){
+@media screen and (max-width:600px){
   body{
     width: 85%;
     margin-left: auto;
