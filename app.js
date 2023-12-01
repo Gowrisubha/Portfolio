@@ -28,7 +28,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 // to use external css file
 app.use(express.static("public"));
 
-
-app.listen(process.env.PORT || 3000, function () {
-    console.log("Server started on port 3000");
+const port=process.env.PORT|| 3000;
+app.listen(port , function () {
+    console.log(`Server started on port ${port}`);
   })
