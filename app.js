@@ -2,7 +2,6 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 var _ = require("lodash");
-const mongoose=require('mongoose');
 const app = express();
 var path = require('path');
 app.set('view engine', 'ejs');
